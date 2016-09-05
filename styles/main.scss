@@ -103,6 +103,10 @@ $grey: #7F7F7F;
 	font-size: 16px;
 }
 
+.ta-center {
+	text-align: center;
+}
+
 // Overriding bootstrap
 .progress {
 	margin-bottom: 0px;
@@ -112,6 +116,14 @@ $grey: #7F7F7F;
 .no-gutter {
 	margin-left: 0px;
 	margin-right: 0px;
+}
+
+.pl-0 {
+	padding-left: 0px;
+}
+
+.m-pl-15 {
+	padding-left: 15px;
 }
 
 // Common stylings
@@ -143,12 +155,10 @@ $grey: #7F7F7F;
 
 	p {
 		margin-top: 10px;
-		margin-bottom: 0px;
 	}
 
 	.project-list {
 		display: inline-flex;
-		margin-top: 50px;
 
 		a, a:hover, a:focus {
 			text-decoration: none
@@ -231,7 +241,8 @@ $grey: #7F7F7F;
 }
 
 .public-speaking {
-	margin-bottom: 250px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 
@@ -281,7 +292,7 @@ $grey: #7F7F7F;
 	}
 
 	.work-together-btn {
-		width: 100%;
+		width: 85%;
 	}
 }
 

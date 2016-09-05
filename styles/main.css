@@ -65,6 +65,9 @@
 .f-16 {
   font-size: 16px; }
 
+.ta-center {
+  text-align: center; }
+
 .progress {
   margin-bottom: 0px;
   margin-top: 5px; }
@@ -72,6 +75,12 @@
 .no-gutter {
   margin-left: 0px;
   margin-right: 0px; }
+
+.pl-0 {
+  padding-left: 0px; }
+
+.m-pl-15 {
+  padding-left: 15px; }
 
 .intro-section, .skills-section, .projects-section, .about-section {
   margin-top: 60px; }
@@ -87,11 +96,9 @@
 .projects-section .single-exp {
   margin-top: 30px; }
 .projects-section p {
-  margin-top: 10px;
-  margin-bottom: 0px; }
+  margin-top: 10px; }
 .projects-section .project-list {
-  display: inline-flex;
-  margin-top: 50px; }
+  display: inline-flex; }
   .projects-section .project-list a, .projects-section .project-list a:hover, .projects-section .project-list a:focus {
     text-decoration: none; }
   .projects-section .project-list .single-project {
@@ -144,7 +151,8 @@
   color: #FFFFFF; }
 
 .public-speaking {
-  margin-bottom: 250px; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 @media screen and (max-width: 767px) {
   .dp1 {
@@ -179,6 +187,6 @@
     margin-bottom: 10px; }
 
   .work-together-btn {
-    width: 100%; } }
+    width: 85%; } }
 
 /*# sourceMappingURL=main.css.map */
