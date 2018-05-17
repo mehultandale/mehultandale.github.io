@@ -80,6 +80,8 @@ $black: #000;
 	font-family: 'OpenSans-Regular';
 	font-size: 18px;
 	color: $grey;
+	margin-bottom: 0px;
+	margin-top: 10px;
 }
 
 .list {
@@ -211,31 +213,6 @@ $black: #000;
     		height: 100%;
     		vertical-align: middle;
 		}
-	}
-}
-
-.work-together-btn, .work-together-btn:hover, .work-together-btn:focus {
-	text-decoration: none;
-	background: #FF4C65;
-	padding: 25px 40px;
-	color: #FFF;
-	margin-top: 30px;
-}
-
-#contactMeModal {
-	.modal-content {
-		border-radius: 0px;
-	}
-
-	input {
-		padding: 10px 25px;		
-	}
-
-	.sendBtn {
-		background: #FF4C65;
-    	border: none;
-    	padding: 10px 30px;
-    	color: #FFFFFF;
 	}
 }
 

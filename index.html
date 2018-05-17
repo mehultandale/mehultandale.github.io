@@ -214,7 +214,7 @@
 
 	<!-- Media section -->
 	<div class="row events-section" >
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+		<div class="col-lg-12 col-md-12 hidden-sm hidden-xs" >
 			<h2 class="sub-heading" >EVENTS</h2>
 			<div class="row" >
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
@@ -228,75 +228,6 @@
 		</div>
 	</div>
 	<!-- end Media section -->
-
-	<!-- Contact modal -->
-	<div id="contactMeModal" class="modal fade" role="dialog">
-		<div class="modal-dialog modal-xs">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Let's work together! :)</h4>
-				</div>
-				<div class="modal-body">
-					<input type="text" name="name" id="name" placeholder="Your name" />
-					<input type="text" name="email" id="email" placeholder="Your email address" />
-					<button class="sendBtn" onclick="send();" >SEND!</button><br/><br/>
-					<p class="user-feedback" ></p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End contact modal-->
-
-	<!-- Thank you modal -->
-	<div id="thankYouModal" class="modal fade" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Thanks! I'll ping you as soon as I can! :)</h4>
-				</div>
-				<div class="modal-body">					
-					<p>If you'd like, you can also directly email me on:</p>
-					<a href="mailto:mehultandale@gmail.com" >mehultandale@gmail.com</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End thank you modal-->
-
-	<!-- Scripts -->
-	<!-- Bootstrap and jQuery -->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js" ></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<!-- End Bootstrap and jQuery -->
-	<!-- Firebase -->
-	<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
-	<script>
-	  // Initialize Firebase
-	  var config = {
-	    apiKey: "AIzaSyBGgIUe0VnQmjI4lFMz0lnM8d7Eb6ujy8Y",
-	    authDomain: "ruthless-priorities.firebaseapp.com",
-	    databaseURL: "https://ruthless-priorities.firebaseio.com",
-	    storageBucket: "ruthless-priorities.appspot.com",
-	  };
-	  firebase.initializeApp(config);	  
-	</script>
-	<script type="text/javascript">
-		function send() {
-			console.log('send!');
-			firebase.database().ref('mehultandale_profile/').push({
-	    		name: $('#name').val(),
-	    		email: $('#email').val()
-	  		}, function() {
-	  			$('#contactMeModal').modal('hide');
-	  			$('#thankYouModal').modal('show');
-	  		});
-	  		$('.user-feedback').html('Please wait, this may take a second.');
-		}
-	</script>
-	<!-- End Firebase -->
-	<!-- End scripts -->
 	
 	<!-- Google Analytics code -->
 	<script>

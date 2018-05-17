@@ -45,7 +45,9 @@
 .para {
   font-family: 'OpenSans-Regular';
   font-size: 18px;
-  color: #7F7F7F; }
+  color: #7F7F7F;
+  margin-bottom: 0px;
+  margin-top: 10px; }
 
 .list {
   padding-left: 0px;
@@ -133,23 +135,6 @@
     display: inline-block;
     height: 100%;
     vertical-align: middle; }
-
-.work-together-btn, .work-together-btn:hover, .work-together-btn:focus {
-  text-decoration: none;
-  background: #FF4C65;
-  padding: 25px 40px;
-  color: #FFF;
-  margin-top: 30px; }
-
-#contactMeModal .modal-content {
-  border-radius: 0px; }
-#contactMeModal input {
-  padding: 10px 25px; }
-#contactMeModal .sendBtn {
-  background: #FF4C65;
-  border: none;
-  padding: 10px 30px;
-  color: #FFFFFF; }
 
 .events-section {
   margin-top: 60px;
