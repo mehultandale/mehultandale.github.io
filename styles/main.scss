@@ -8,6 +8,7 @@ $sixth_color: #F5A623;
 $seventh_color: #FF4C65;
 
 $grey: #7F7F7F;
+$black: #000;
 
 // Loading fonts
 @font-face {
@@ -88,7 +89,7 @@ $grey: #7F7F7F;
 
 .label {
 	font-family: 'OpenSans-Bold';
-	color: $grey;
+	color: #4E4E4E;
 	font-size: 30px;
 	padding: 0px;
 }
@@ -99,12 +100,22 @@ $grey: #7F7F7F;
 	font-size: 18px;
 }
 
+.duration {
+	font-family: 'OpenSans-Regular';
+	color: $grey;
+	font-size: 12px;	
+}
+
 .f-16 {
 	font-size: 16px;
 }
 
 .ta-center {
 	text-align: center;
+}
+
+.fl-left {
+	float: left;
 }
 
 // Overriding bootstrap
@@ -153,10 +164,6 @@ $grey: #7F7F7F;
 		margin-top: 30px;
 	}
 
-	p {
-		margin-top: 10px;
-	}
-
 	.project-list {
 		display: inline-flex;
 
@@ -171,6 +178,16 @@ $grey: #7F7F7F;
     		margin-right: 20px;
     		text-align: center;
     		cursor: pointer;
+
+    		.periodic-table-text {
+    			.bold {
+    				font-size: 16px;
+    			}
+    			.light {
+					font-size: 16px;
+					display: block;
+    			}
+    		}
 
     		&:hover {
     			opacity: 0.8;
@@ -194,33 +211,15 @@ $grey: #7F7F7F;
     		height: 100%;
     		vertical-align: middle;
 		}
-
-		.coming-soon {
-			font-size: 18px;
-			padding-top: 40px;
-		}
-
-		.blink-me {
-		  animation: blinker 2s linear infinite;
-		}
-
-		.watch-this-space-text {
-			font-size: 10px;
-		}
-
-		@keyframes blinker {  
-		  50% { opacity: 0.0; }
-		}
 	}
 }
 
 .work-together-btn, .work-together-btn:hover, .work-together-btn:focus {
 	text-decoration: none;
 	background: #FF4C65;
-	border: 1px solid #98DAFC;
 	padding: 25px 40px;
 	color: #FFF;
-	margin-bottom: 50px;	
+	margin-top: 30px;
 }
 
 #contactMeModal {
@@ -240,12 +239,10 @@ $grey: #7F7F7F;
 	}
 }
 
-.public-speaking {
-	margin-top: 50px;
-	margin-bottom: 50px;
+.events-section {
+	margin-top: 60px;
+	padding-bottom: 60px;
 }
-
-
 
 // Media queries
 @media screen and (max-width:767px) {	

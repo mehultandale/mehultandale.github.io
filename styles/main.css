@@ -53,7 +53,7 @@
 
 .label {
   font-family: 'OpenSans-Bold';
-  color: #7F7F7F;
+  color: #4E4E4E;
   font-size: 30px;
   padding: 0px; }
 
@@ -62,11 +62,19 @@
   color: #7F7F7F;
   font-size: 18px; }
 
+.duration {
+  font-family: 'OpenSans-Regular';
+  color: #7F7F7F;
+  font-size: 12px; }
+
 .f-16 {
   font-size: 16px; }
 
 .ta-center {
   text-align: center; }
+
+.fl-left {
+  float: left; }
 
 .progress {
   margin-bottom: 0px;
@@ -95,8 +103,6 @@
 
 .projects-section .single-exp {
   margin-top: 30px; }
-.projects-section p {
-  margin-top: 10px; }
 .projects-section .project-list {
   display: inline-flex; }
   .projects-section .project-list a, .projects-section .project-list a:hover, .projects-section .project-list a:focus {
@@ -108,6 +114,11 @@
     margin-right: 20px;
     text-align: center;
     cursor: pointer; }
+    .projects-section .project-list .single-project .periodic-table-text .bold {
+      font-size: 16px; }
+    .projects-section .project-list .single-project .periodic-table-text .light {
+      font-size: 16px;
+      display: block; }
     .projects-section .project-list .single-project:hover {
       opacity: 0.8; }
   .projects-section .project-list .over-text {
@@ -122,23 +133,13 @@
     display: inline-block;
     height: 100%;
     vertical-align: middle; }
-  .projects-section .project-list .coming-soon {
-    font-size: 18px;
-    padding-top: 40px; }
-  .projects-section .project-list .blink-me {
-    animation: blinker 2s linear infinite; }
-  .projects-section .project-list .watch-this-space-text {
-    font-size: 10px; }
-@keyframes blinker {
-  50% {
-    opacity: 0.0; } }
+
 .work-together-btn, .work-together-btn:hover, .work-together-btn:focus {
   text-decoration: none;
   background: #FF4C65;
-  border: 1px solid #98DAFC;
   padding: 25px 40px;
   color: #FFF;
-  margin-bottom: 50px; }
+  margin-top: 30px; }
 
 #contactMeModal .modal-content {
   border-radius: 0px; }
@@ -150,9 +151,9 @@
   padding: 10px 30px;
   color: #FFFFFF; }
 
-.public-speaking {
-  margin-top: 50px;
-  margin-bottom: 50px; }
+.events-section {
+  margin-top: 60px;
+  padding-bottom: 60px; }
 
 @media screen and (max-width: 767px) {
   .dp1 {
