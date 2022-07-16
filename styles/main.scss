@@ -1,7 +1,7 @@
 // Website colors
 $primary_color: #312C32;
 $secondary_color: #FFFFFF;
-$third_color: #98DAFC;
+$third_color: #312c32;
 $fourth_color: #6D983E;
 $fifth_color: #AFDA81;
 $sixth_color: #F5A623;
@@ -118,6 +118,11 @@ $black: #000;
 
 .fl-left {
 	float: left;
+}
+
+.personal-desc-para {
+	font-size: 1.5em;
+	margin-top: 2em;
 }
 
 // Overriding bootstrap

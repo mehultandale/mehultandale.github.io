@@ -39,7 +39,7 @@
 .sub-heading {
   font-family: 'OpenSans-ExtraBold';
   font-size: 36px;
-  color: #98DAFC;
+  color: #312c32;
   margin-bottom: 30px; }
 
 .para {
@@ -77,6 +77,10 @@
 
 .fl-left {
   float: left; }
+
+.personal-desc-para {
+  font-size: 1.5em;
+  margin-top: 2em; }
 
 .progress {
   margin-bottom: 0px;
