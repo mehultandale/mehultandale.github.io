@@ -1,0 +1,25 @@
+/* Colors */
+/* Normalise */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap");
+/* Common */
+/* Width */
+.w-50 {
+  width: 50%; }
+
+.banner-wrap {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center; }
+
+.metrics-list {
+  background: #38618C;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0em; }
+
+/*# sourceMappingURL=index.css.map */

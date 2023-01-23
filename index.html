@@ -1,156 +1,96 @@
 <html>
 	<head>
+		
+		<!-- Character set -->
 		<meta charset="utf-8">
+
+		<!-- Responsive -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Mehul Tandale</title>
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700">
-		
-		<style type="text/css">
-			/* For elements */
-			* {
-				font-family: "Roboto";
-			}
-			body {
-				margin: 0px;
-			}
-			h1, h3, h4 {
-				text-transform: uppercase;
-			}
-			h1 {
-				margin-top: 0em;
-				margin-bottom: 0.2em;
-			}
-			ul, p {
-				width: 80%;
-			}
-			li {
-				margin-top: 1em;
-			}
-			a {
-				font-weight: 600;
-				color: #009293;
-				text-decoration: none;
-				border-bottom: 2px dashed #009293;
-			}
-			/* end For elements */
+		<!-- Title -->
+		<title>Mehul Tandale | Fullstack developer</title>
 
-			/* Site specific  */
-			.mt-row {
-				display: inline-flex;
-			}
-			.wd-50p {
-				width: 50%;
-			}
-			.mg-btm-05 {
-				margin-bottom: 0.5em;
-			}
-			.page-wrap {
-				padding: 5%;
-			}
-			.fullstack-head {
-				margin-top: 0em;
-				margin-bottom: 0.5em;
-			}
-			.email-para {
-				margin-top: 0em;
-			}
-			.tech-list {
-				display: inline-flex;
-				list-style-type: none;
-				padding-left: 0em;
-				margin-top: 0em;
-				flex-wrap: wrap;
-			}
-			.tech-list li {
-				border:  1px solid #000;
-				border-radius: 5px;
-				padding: 5px;
-				margin-right: 10px;
-			}
-			.tech-list li:hover {
-				background: #000;
-				color: #fff;
-				cursor: pointer;
-			}
-			.copy-sp {
-				color: #009293;
-				cursor: pointer;
-				font-size: 0.8em;
-			}
-			/* end Site specific */
+		<!-- Styling -->
+		<link rel="stylesheet" href="styles/css/index.css" />
 
-			/* For mobiles */
-			@media only screen and (max-width: 768px) {
-				.mt-row {
-					display: flex;
-					flex-direction: column;
-				}
-				.wd-50p {
-					width: 100%;
-				}
-			}
-			/* end For mobiles */
-
-		</style>
 	</head>
 	<body>
-		<div class="page-wrap">
-			<h1>Mehul Tandale</h1>
-			<h3 class="fullstack-head">Fullstack developer</h3>
-			<p class="email-para">mehultandale@gmail.com <span id="copy-email-sp" class="copy-sp">(copy)</span></p>
-			<div class="mt-row">
-				<div class="wd-50p">
-					<h3>Tech used</h3>
-					<p class="mg-btm-05">
-						These are not randomly picked terms but the tech I've actually implemented
-						in production projects.
-					</p>
-					<ul class="tech-list">
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>SASS</li>
-						<li>JS</li>
-						<li>React</li>
-						<li>React Native</li>
-						<li>Jasmine</li>
-						<li>Python</li>
-						<li>Django</li>
-						<li>Shell scripting</li>
-						<li>Firebase</li>
-						<li>Nginx</li>
-						<li>AWS</li>
-						<li>Digital Ocean</li>
-					</ul>
-				</div>
-				<div class="wd-50p">
 
-					<h3>About</h3>
-					<p>Prefers building things from scratch - so that it is optimised for performance and we have superior control over it.</p>
-					<ul>
-						<li>Worked at product-based startups like <a target="_BLANK" href="https://credr.com">CredR</a>, <a target="_BLANK" href="https://turtlemint.com">Turtlemint</a></li>
-						<li style="line-height: 1.65;" >Developed an <a href="https://play.google.com/store/apps/details?id=com.learnperiodictable&hl=en&gl=US" target="_BLANK" >Android app</a> (pet project) that got over 11K downloads on the Play Store</li>
-						<li>Strives to implement principles of programming such as: DRY, OOP, Single-responsibility principle, and so on.</li>
-					</ul>
-					<ul>
-						<li>Constantly learns directly from documentations (MDN, Python documentation, Django documentation, etc); instead of trial and error.</li>
-						<li>Practices DSA on HackerRank</li>
-						<li>Reads tech books multiple times for deeper understanding (such as JS: The Good Parts)</li>
-						<li>Influenced by tech blogs like <a target="_BLANK" href="https://medium.com/airbnb-engineering/web/home">Airbnb Engineering</a>, <a target="_BLANK" href="https://tech.hotstar.com/">Hotstar Tech</a></li>
-					</ul>
-
-				</div>
+		<div class="banner-wrap" >
+			<img src="./images/mt.svg" alt="MT's picture" />
+			<div>
+				<h1>Mehul Tandale</h1>
+				<p>at your service.</p>
+				<p>Fullstack &middot; DSA</p>
 			</div>
 		</div>
 
-		<script type="text/javascript">
-			(function() {
-				let copyEmailSp = document.getElementById("copy-email-sp");
-				copyEmailSp.onclick = function() {
-					navigator.clipboard.writeText("mehultandale@gmail.com");
-					copyEmailSp.innerHTML = "copied";
-				}
-			})();
-		</script>
+		<ul class="metrics-list" >
+			<li>
+				<h4>19+</h4>
+				<p>TECHNOLOGIES USED</p>
+			</li>
+			<li>
+				<h4>4</h4>
+				<p>POPULAR PROJECTS</p>
+			</li>
+			<li>
+				<h4>8+</h4>
+				<p>YEARS OF EXPERIENCE</p>
+			</li>
+		</ul>
+
+		<h3>EXPERIENCE</h3>
+
+		<h4>CredR</h4>
+		<p>Backed by investors like AngelList and Yamaha, CredR has raised  over $30 million to bring convenience to the online buying and selling  of second hand bikes.</p>
+
+		<h4>Turtlemint</h4>
+		<p>Helps in buying insurance conveniently. It is valued at over $900 million and backed by Jungle Ventures, Nexus Venture Partners.</p>
+
+		<h3>STACK USED</h3>
+		<p>(in production)</p>
+
+		<h5>FRONTEND</h5>
+		<p>MARKUP</p>
+		<p>STYLING</p>
+		<p>LANGUAGES</p>
+		<p>FRAMEWORKS</p>
+		<p>TESTING</p>
+
+
+		<h5>BACKEND</h5>
+		<p>LANGUAGES</p>
+		<p>FRAMEWORKS</p>
+		<p>DATABASE</p>
+
+		<h5>DEVOPS</h5>
+
+
+		<h3>SIDE PROJECTS</h3>
+		<p>(The only project I can show, because of NDA at previous firms)</p>
+
+		<h5>Periodic Table Quiz</h5>
+		<p>Android app built with React Native</p>
+		<p>Downloads on Play Store: 11K+</p>
+		<a target="_BLANK" href="" >LINK TO DOWNLOAD</a>
+
+
+		<h3>LINKS</h3>
+		<ul>
+			<li>
+				<a target="_BLANK" >HackerRank</a>
+			</li>
+			<li>
+				<a target="_BLANK" >Github</a>
+			</li>
+			<li>
+				<a href="_BLANK" >StackOverflow</a>
+			</li>
+		</ul>
+
+		<a target="_BLANK" href="" >Hire me</a>
+
+
 	</body>
 </html>
